@@ -1,0 +1,167 @@
+.experience-section {
+  padding: 100px 8%;
+  background: #0b1020;
+  color: #e5e7eb;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.section-label {
+  color: #60a5fa;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.section-heading h2 {
+  margin: 14px 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #f8fafc;
+}
+
+.section-heading h2 span {
+  color: #60a5fa;
+}
+
+.section-heading p {
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.journey-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 24px;
+  font-size: 1.3rem;
+  color: #f8fafc;
+}
+
+.journey-icon {
+  font-size: 1.4rem;
+}
+
+.journey-card {
+  position: relative;
+  margin-left: 8px;
+  padding: 26px;
+  border: 1px solid #26334d;
+  border-radius: 16px;
+  background: #111a2e;
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.journey-card:hover {
+  transform: translateY(-4px);
+  border-color: #60a5fa;
+}
+
+.journey-duration {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 6px 11px;
+  border-radius: 20px;
+  background: #172d4d;
+  color: #93c5fd;
+  font-size: 0.8rem;
+}
+
+.journey-card h4 {
+  margin: 0 0 8px;
+  color: #f8fafc;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.journey-card h5 {
+  margin: 0 0 8px;
+  color: #60a5fa;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.journey-location {
+  margin: 0 0 18px;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.journey-description {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.responsibility-list {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0 0;
+  padding-left: 20px;
+  color: #cbd5e1;
+}
+
+.responsibility-list li {
+  padding-left: 4px;
+  line-height: 1.7;
+}
+
+.responsibility-list li::marker {
+  color: #60a5fa;
+}
+
+.education-column {
+  display: grid;
+  gap: 0;
+}
+
+.education-card {
+  margin-bottom: 20px;
+}
+
+.education-score {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid #294a70;
+  border-radius: 8px;
+  color: #93c5fd;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .journey-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .experience-section {
+    padding: 70px 5%;
+  }
+
+  .journey-card {
+    padding: 20px;
+  }
+
+  .section-heading {
+    margin-bottom: 38px;
+  }
+}
