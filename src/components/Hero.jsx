@@ -36,7 +36,7 @@ function Hero() {
             </a>
 
             <a
-              href="/Keerthi_M_Python_Full_Stack_Developer.pdf"
+              href="/keerthi_res.pdf"
               className="hero-btn secondary-btn"
               download
             >
