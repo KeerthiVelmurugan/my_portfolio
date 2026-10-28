@@ -49,16 +49,8 @@ const projects = [
     technologies: ["React", "JavaScript", "REST API", "CSS"],
     icon: "🌦️",
     liveUrl: "https://ai-website-5iq0.onrender.com/weather",
-  },
-   {
-    title: "BMI Calculator",
-    category: "Mini Project",
-    description:
-      "A simple application that calculates Body Mass Index using height and weight, then displays the corresponding BMI value and category.",
-    technologies: ["React", "JavaScript", "CSS"],
-    icon: "⚖️",
-    liveUrl: "https://ai-website-5iq0.onrender.com/bmi",
   }
+   
 ];
 
 function Projects() {
